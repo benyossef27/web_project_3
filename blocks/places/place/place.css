@@ -1,0 +1,7 @@
+.place{
+    width: 984px;
+    height: 756px;
+    display: grid;
+    
+    border: red solid 1px;
+}
