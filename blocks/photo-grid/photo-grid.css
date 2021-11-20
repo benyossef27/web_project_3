@@ -1,5 +1,11 @@
 .photo-grid{
-    display: grid;
-    margin: 100px auto;
-    border: red 1px solid;
+    display: inline-grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    margin: 118px 48px 92px;
+    width: 1184px;
+    height: 442px;
 }
