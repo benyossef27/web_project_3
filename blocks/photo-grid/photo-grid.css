@@ -1,0 +1,5 @@
+.photo-grid{
+    display: grid;
+    margin: 100px auto;
+    border: red 1px solid;
+}
