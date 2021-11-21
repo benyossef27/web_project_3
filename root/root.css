@@ -3,7 +3,7 @@ html,body{margin:0;padding:0}
 .root{
     min-width: 1280px;
     max-width: 1280px;
-    min-height: 7473px;
+    max-height: 7473px;
     margin: 0 auto;
     font-family: inter;
     background-color: #2A2C2F;

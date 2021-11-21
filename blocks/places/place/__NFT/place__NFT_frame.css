@@ -1,0 +1,14 @@
+.place__NFT_frame{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 48px;
+    width: 248px;
+    height: 48px;
+    background: #0278FE;
+    border-radius: 4px;
+}
+
+.place__NFT_frame:hover{
+    background: #0063D2;
+}

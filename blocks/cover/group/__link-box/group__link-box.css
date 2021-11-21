@@ -1,0 +1,11 @@
+.group__link-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 20px;
+    width: 137px;
+    height: 48px;
+    background: #0278FE;
+    border-radius: 4px;
+    z-index: 2;
+}

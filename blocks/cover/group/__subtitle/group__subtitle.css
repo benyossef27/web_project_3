@@ -1,0 +1,13 @@
+.group__subtitle{
+margin: 32px 0 32px;
+width: 280px;
+height: 66px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+z-index: 2;
+}

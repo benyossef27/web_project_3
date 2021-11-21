@@ -1,0 +1,12 @@
+.place__paragraph{
+display:inline-block;
+margin-top: 0;
+width: 484px;
+height: 174px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+color: #FFFFFF;
+}

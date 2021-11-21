@@ -1,7 +1,10 @@
 .place{
+    margin-bottom: 80px;
+    padding: 0;
     width: 984px;
-    height: 756px;
-    display: grid;
-    
-    border: red solid 1px;
+    min-height: 680px;
+    max-height: 830px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
