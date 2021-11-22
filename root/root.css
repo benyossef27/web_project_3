@@ -12,5 +12,5 @@ html{margin: 0;padding:0;}
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    
+    overflow: hidden;
 }
