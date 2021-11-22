@@ -9,3 +9,12 @@ font-size: 72px;
 line-height: 76px;
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 1220px) {
+    .place__title{
+width: 340px;
+height: 92px;
+font-size: 42px;
+line-height: 46px;
+
+    }}

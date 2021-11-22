@@ -6,4 +6,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
+}
+
+
+@media screen and (max-width: 1220px) {
+    .place{
+    max-width: 720px; 
+    max-height: 814px;
+    column-gap: 10px;
+    }
 }
