@@ -1,6 +1,17 @@
 .photo-grid__item{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     margin: 0;
+    max-width: 284px;
+    max-height: 231px;
+}
+@media  screen and (max-width:1000px){
+    .photo-grid__item{
+        min-width: 352px;
+        max-height:  264px;
+    }
+}
+@media  screen and (max-width:760px){
+    .photo-grid__item{
+        min-width: 288px;
+        min-height: 216px;
+    }
 }

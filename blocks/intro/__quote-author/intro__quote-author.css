@@ -1,6 +1,6 @@
 .intro__quote-author{
-    margin: auto 65px auto auto;
-    width: 720px;
+    margin: 0 65px 0 0;
+    max-width: 720px;
     height: 34px;
     font-family: Inter;
     font-style: normal;

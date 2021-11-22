@@ -10,3 +10,12 @@ line-height: 22px;
 text-align: center;
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+    .group__subtitle{
+margin: 16px 20px;
+width: 280px;
+height: 48px;
+font-size: 14px;
+line-height: 16px;
+    }}

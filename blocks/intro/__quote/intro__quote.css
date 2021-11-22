@@ -1,7 +1,7 @@
 .intro__quote{
     margin: 40px auto 10px 0;
-    width: 720px;
-    height: 102px;
+    max-width: 720px;
+    min-height: 102px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;

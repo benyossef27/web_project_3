@@ -13,3 +13,11 @@
     flex-grow: 0;
     text-decoration: none;
 }
+
+@media screen and (max-width: 320px) {
+.group__link{
+ width: 97px;
+height: 22px;
+font-size: 18px;
+line-height: 22px;
+}}

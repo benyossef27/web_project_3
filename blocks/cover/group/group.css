@@ -1,7 +1,8 @@
 .group{
-    width: 656px;
+    max-width: 656px;
     height: 254px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
