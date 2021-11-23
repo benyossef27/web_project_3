@@ -1,5 +1,6 @@
 @import url();
 @import url(../root/root.css);
+@import url(../blocks/page/page.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -24,8 +25,8 @@
 @import url(../blocks/place/__NFT-link/place__NFT-link.css);
 @import url(../blocks/place/__article/place__article.css);
 @import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__website/place__website_heading.css);
-@import url(../blocks/place/__website/place__website_artist.css);
+@import url(../blocks/place/__website-heading/place__website-heading.css);
+@import url(../blocks/place/__website-artist/place__website-artist.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/group/group.css);

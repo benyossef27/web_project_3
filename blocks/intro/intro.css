@@ -1,11 +1,11 @@
 .intro{
-    margin-left: 148px;
+    margin-right: 200px;
     max-width: 785px;
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
     .intro{
     margin: auto 24px auto 24px;  
     max-width: 720px;
