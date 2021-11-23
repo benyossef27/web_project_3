@@ -11,6 +11,13 @@ text-align: center;
 color: #FFFDFD;
 }
 
+@media screen and (max-width:700px){
+    .group__title{
+        max-width: 320px;
+    
+}
+}
+
 @media screen and (max-width: 320px) {
     .group__title{
     margin: 46px 16px 0;

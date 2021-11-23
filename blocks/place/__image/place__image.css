@@ -13,3 +13,10 @@
         margin-bottom: 24px;
     }
 }
+
+@media screen and (max-width: 670px) {
+    .place__image {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}

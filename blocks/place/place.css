@@ -6,16 +6,18 @@
     grid-template-areas: 
     "title  article"
     "image  article"
-    "NFT    article";
+    "NFT    article"
+    ".      article";
     
 }
 
 @media screen and (max-width: 1150px){
     .place{
-   grid-column-gap: 10px;
+   grid-column-gap: 28px;
+   
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 670px){
     .place{
     grid-template-areas:
     "title"

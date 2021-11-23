@@ -1,7 +1,4 @@
 .place__article{
-    display: flex;
-    flex-direction: column;
     grid-area: article;
-
-    
+    max-width: 500px;
 }
