@@ -1,0 +1,21 @@
+.place__paragraph{
+
+display:inline-block;
+margin-top: 0;
+width: 484px;
+max-height: 261px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+
+}
+@media screen and (max-width: 1000px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        max-height: 500px;
+        inline-size: 100%;
+    }
+}

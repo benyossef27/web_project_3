@@ -1,0 +1,26 @@
+.place{
+    color: #FFFFFF;
+    display: grid;
+    margin-bottom: 80px;
+    grid-column-gap: 40px;
+    grid-template-areas: 
+    "title  article"
+    "image  article"
+    "NFT    article";
+    
+}
+
+@media screen and (max-width: 1150px){
+    .place{
+   grid-column-gap: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .place{
+    grid-template-areas:
+    "title"
+    "image"
+    "article"
+    "NFT";
+    }
+}

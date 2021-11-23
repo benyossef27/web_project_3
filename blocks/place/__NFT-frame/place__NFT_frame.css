@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     align-items:center;
-    margin-top: 48px;
     width: 248px;
     height: 48px;
     background: #0278FE;
     border-radius: 4px;
+    grid-area:NFT;
 }
 
 .place__NFT-frame:hover{

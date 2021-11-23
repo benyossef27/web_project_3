@@ -24,7 +24,7 @@
         max-height: 1104px;
     }
 }    
-@media  screen and (max-width:767px){
+@media  screen and (max-width:650px){
     .photo-grid{
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(8, auto);
