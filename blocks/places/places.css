@@ -5,6 +5,12 @@
 }
 @media screen and (max-width: 1150px){
     .places{
-        margin: 0 10px 92px 10px;
+        margin: 88px 10px 92px 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .places{
+        width:100%;
+        
     }
 }

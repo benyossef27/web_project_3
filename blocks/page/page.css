@@ -3,5 +3,7 @@
     flex-direction: column;
     margin: auto;
     background-color: #2A2C2F;
-    align-items: center ;
+    align-items: center;
+    width: 110%;
+    padding: 0;
 }

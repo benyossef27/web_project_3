@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1080px) {
     .intro{
     margin: auto 24px auto 24px;  
     max-width: 720px;
