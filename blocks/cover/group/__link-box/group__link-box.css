@@ -1,4 +1,5 @@
 .group__link-box{
+    margin-top: 32px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -6,7 +7,16 @@
     max-width: 137px;
     height: 48px;
     background: #0278FE;
-    border-radius: 4px;
 }
 
+.group__link-box:hover{
+background: #0063D2; ;
+}
+
+@media screen and (max-width:320px){
+    .group__link-box{
+        margin-top: 16px;
+        padding: 0 20px;
+    }
+}
  

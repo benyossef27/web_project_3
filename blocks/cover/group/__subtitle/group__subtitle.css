@@ -1,7 +1,7 @@
 .group__subtitle{
-margin: 32px 0 32px;
-width: 280px;
-height: 66px;
+margin:0;
+padding: 0;
+max-width: 280px;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -13,9 +13,8 @@ color: #FFFFFF;
 
 @media screen and (max-width: 320px) {
     .group__subtitle{
-margin: 16px 20px;
+margin: 0 20px 0;
 width: 280px;
-height: 48px;
 font-size: 14px;
 line-height: 16px;
     }}

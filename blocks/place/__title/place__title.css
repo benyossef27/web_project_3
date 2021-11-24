@@ -10,6 +10,9 @@
     min-height:152px ;
 }
 
+.place__title::thired{
+    margin-top: 40px;
+}
 @media screen and (max-width: 1080px) {
     .place__title {
         margin: auto 32px 46px 0;

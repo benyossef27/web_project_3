@@ -1,19 +1,19 @@
 .cover{
     margin: 12px 48px 92px;
-    width: 1184px;
     height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image:url(../../images/cover/__background.png);
-    background-position: center;
+    background: url(../../images/cover/__background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 1279px) {
     .cover{
     margin: 12px 0 92px;
-    width: 100%;
     }
 }
 
