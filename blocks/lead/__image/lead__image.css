@@ -2,8 +2,7 @@
     margin: 0 auto 0;
     max-height: 615px;
     max-width: 984px;
-    filter: grayscale(100%)
-    
+    filter: grayscale(100%);
 }
 
 @media screen and (max-width:1020px){

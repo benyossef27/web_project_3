@@ -7,14 +7,14 @@
 
 @media screen and (max-width:1080px) {
     .intro{
-    margin: auto 24px auto 24px;  
+    margin: auto 24px auto 24px;
     max-width: 720px;
     min-height: 548px;
     }
 }
 @media screen and (max-width:320px) {
     .intro{
-    margin: auto 16px auto 16px;  
+    margin: auto 16px auto 16px;
     max-width: 288px;
     min-height: 886px;
     }
