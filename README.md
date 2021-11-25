@@ -1,19 +1,31 @@
-# Project 3: From Homeland to Homeland
-### Overview  
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**    
-  
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+
+# Project 3 - Sprint4: From Portland to Portland
+* Part of the Practicum by Yandex Web Development Bootcamp Curriculum.
+
+### Overview
+* Intro
+* Description of the project and its functionality
+* Technologies
+* Figma
+* Images
+
+**Intro**
+
+This is a project about traveling.
+
+**Description of the project and its functionality**
+
+Responsive website according to design made in Figma.
+
+**Technologies**
+
+The project uses HTML5, CSS3 (flexbox, grid, BEM)
+
+**Figma**
+
+project made according to the Figma layout 
+* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+
+**Images**
+
+Images exported from Figma and optimize [here](https://tinypng.com/), so the project loads faster. 
