@@ -1,6 +1,6 @@
 .group{
     max-width: 656px;
-    height: 254px;
+    max-height: 254px;
     display: flex;
     align-items: center;
     flex-direction: column;

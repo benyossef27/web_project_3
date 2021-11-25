@@ -7,15 +7,5 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     text-decoration: none;
 }
-
-@media screen and (max-width: 320px) {
-.group__link{
- width: 97px;
-font-size: 18px;
-line-height: 22px;
-}}

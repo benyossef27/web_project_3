@@ -1,8 +1,6 @@
 .group__title{
 margin: 0;
 margin-bottom: 32px;
-width: 656px;
-height: 76px;
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
@@ -12,18 +10,9 @@ text-align: center;
 color: #FFFDFD;
 }
 
-@media screen and (max-width:700px){
-    .group__title{
-        max-width: 320px;
-    
-}
-}
-
 @media screen and (max-width: 320px) {
     .group__title{
     margin: 46px 16px 16px;
-    width: 288px;
-    height: 35px;
     font-size: 32px;
     line-height: 35px;
     }}

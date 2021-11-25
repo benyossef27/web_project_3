@@ -8,27 +8,18 @@
     "image  article"
     "NFT    article"
     ".      article";
-    
 }
-
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 767px){
     .place{
    grid-column-gap: 28px;
-   
     }
 }
 @media screen and (max-width: 670px){
     .place{
-    grid-template-areas:
-    "title"
-    "image"
-    "article"
-    "NFT";
-    }
-}
-@media screen and (max-width: 320px){
-    .place{
-        width: 100%;
-       
+        grid-template-areas:
+        "title"
+        "image"
+        "article"
+        "NFT";   
     }
 }

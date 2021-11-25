@@ -2,6 +2,7 @@
     grid-area: article;
     max-width: 500px;
 }
+
 @media screen and (max-width:320){
     .place__article{
         width: 100vw;
