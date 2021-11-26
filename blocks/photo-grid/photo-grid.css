@@ -5,7 +5,7 @@
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     margin: 118px auto 92px;
-    max-width: calc((285*4)+(16*3)+(48*2));
+    max-width: calc( ( 285 * 4 ) + ( 16 *  3) + ( 48 * 2 ) );
     
 }
 
