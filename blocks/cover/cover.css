@@ -1,6 +1,7 @@
 .cover{
     margin: 12px 48px 92px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,22 +9,31 @@
     background: url(../../images/cover/__background.png);
     background-repeat: no-repeat;
     background-size:cover;
-    
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width:  1279px) {
     .cover{
     margin: 12px 0 92px;
     width: 100%;
+    min-height: 746px;
     }
 }
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width:767px) {
     .cover{
-    max-height: 254px;
+    margin: 12px 0 92px;
+    width: 100%;
+    min-height: 746px;
     }
 }
+@media screen and (max-width:319px) {
+    .cover{
+    min-height: 254px;
+    }
+}
+
+
+
+
 .cover:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../../images/cover/__background.png);
 }

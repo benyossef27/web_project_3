@@ -1,11 +1,11 @@
 .lead__image{
-    margin: 0 auto 0;
+    margin: 0 0 0;
     max-height: 615px;
     max-width: 984px;
     filter: grayscale(100%);
 }
 
-@media screen and (max-width:1020px){
+@media screen and (max-width:1279px){
 .lead__image{
     width:100%;
 }}

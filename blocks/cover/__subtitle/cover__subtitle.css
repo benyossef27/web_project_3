@@ -1,4 +1,4 @@
-.group__subtitle{
+.cover__subtitle{
 margin:0;
 max-width: 280px;
 font-family: Inter;
@@ -11,7 +11,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 320px) {
-    .group__subtitle{
+    .cover__subtitle{
 font-size: 14px;
 line-height: 16px;
     }}

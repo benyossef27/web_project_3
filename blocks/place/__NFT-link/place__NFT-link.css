@@ -1,6 +1,5 @@
 .place__NFT-link{
-    width: 208px;
-    height: 22px;
+    max-width: 208px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
