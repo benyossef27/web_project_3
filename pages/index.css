@@ -21,8 +21,7 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__NFT-frame/place__NFT_frame.css);
-@import url(../blocks/place/__NFT-link/place__NFT-link.css);
+@import url(../blocks/place/__nft-link/place__nft-link.css);
 @import url(../blocks/place/__article/place__article.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-heading/place__website-heading.css);
@@ -31,7 +30,6 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__link-box/cover__link-box.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

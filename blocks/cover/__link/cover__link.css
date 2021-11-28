@@ -1,11 +1,26 @@
 .cover__link{
     margin: auto;
-    width: 97px;
-    font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
     text-decoration: none;
+    margin-top: 32px;
+    padding: 13px 20px;
+    max-width: 137px;
+    background: #0278FE;
+    border-radius: 4px;
 }
+
+@media screen and (max-width:320px){
+    .cover__link{
+        margin-top: 16px;
+        max-width: 137px;
+    }
+}
+
+.cover__link:hover{
+    background: #0063D2;
+    transition: ease-in-out 2s;
+    }    

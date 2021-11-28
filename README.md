@@ -29,3 +29,6 @@ project made according to the Figma layout
 **Images**
 
 Images exported from Figma and optimize [here](https://tinypng.com/), so the project loads faster. 
+
+**demo** 
+In order to veiw the project's demo [press this link](https://benyossef27.github.io/web_project_3/).

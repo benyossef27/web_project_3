@@ -3,19 +3,27 @@
     max-width: 785px;
     display: flex;
     flex-direction: column;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1279px){
     .intro{
-    margin: auto 24px auto 24px;
-    max-width: 720px;
-    min-height: 548px;
+        margin: auto;
+        max-width: 720px;
+        min-height: 548px;
     }
 }
-@media screen and (max-width:320px) {
+
+@media screen and (max-width:767px){
     .intro{
-    margin: auto 16px auto 16px;
-    max-width: 288px;
-    min-height: 886px;
+        margin: auto;
+        margin: auto 16px auto 16px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .intro{
+        max-width: 288px;
+        min-height: 886px;
     }
 }

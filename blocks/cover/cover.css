@@ -1,39 +1,35 @@
-.cover{
-    margin: 12px 48px 92px;
+.cover {
+    margin: 0 48px 92px;
     max-width: 1184px;
     min-height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(../../images/cover/__background.png);
+    background: url(../../images/cover/__background.png) rgba(42, 44, 47, 0.3);
     background-repeat: no-repeat;
-    background-size:cover;
-}
-
-@media screen and (max-width:  1279px) {
-    .cover{
-    margin: 12px 0 92px;
-    width: 100%;
-    min-height: 746px;
+    background-size: cover;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background-blend-mode: overlay;
+    background-position: center;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .cover {
+      margin: 0 0 88px;
+      width: 100%;
+      min-height: 746px;
     }
-}
-@media screen and (max-width:767px) {
-    .cover{
-    margin: 12px 0 92px;
-    width: 100%;
-    min-height: 746px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover {
+      min-height: 254px;
+      margin-bottom: 64px;
     }
-}
-@media screen and (max-width:319px) {
-    .cover{
-    min-height: 254px;
-    }
-}
-
-
-
-
-.cover:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../../images/cover/__background.png);
-}
+  }
+  
+  .cover:hover {
+    background: url(../../images/cover/__background.png) rgba(42, 44, 47, 0.8);
+    transition: ease-in-out 2s;
+  }

@@ -2,10 +2,22 @@
     margin: 40px auto 10px 0;
     max-width: 720px;
     min-height: 102px;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width:320px){
+    .intro__quote{
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:200px){
+    .intro__quote{
+        line-height: 30px;
+        font-size: 16px;
+    }
 }

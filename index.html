@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="wiph=device-wiph, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <link href="./pages/index.css" rel="stylesheet" />
     <title>practicum art gallery</title>
   </head>
@@ -12,7 +12,7 @@
       <header class="header">
         <img
           class="header__logo"
-          src="./images/logo/__logo.png"
+          src="./images/logo/__logo.svg"
           alt="practicum art gallery logo"
         />
       </header>
@@ -20,9 +20,9 @@
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">From Homeland to Homeland</h1>
-          <h2 class="lead__subtitle">
+          <p class="lead__subtitle">
             An epic journey from Kentucky to Burundi through Wales and Ukraine
-          </h2>
+          </p>
           <img
             class="lead__image"
             src="./images/lead/kalegin-michail-179870-unsplash.png"
@@ -95,27 +95,25 @@
           />
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Kyiv, Ukraine</h2>
             <img
               class="place__image"
               src="./images/place/__image-kyiv.png"
               alt="kyiv"
             />
-            <div class="place__NFT-frame">
               <a
-                class="place__NFT-link"
+                class="place__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Buy this artwork as NFT</a
               >
-            </div>
-            <article class="place__article">
               <div class="place__website">
                 <h3 class="place__website-heading">artist</h3>
                 <p class="place__website-artist">
                   Natalia Dolgushina, content producer
                 </p>
               </div>
+              <div class="place__article">
               <p class="place__paragraph">
                 Kyiv (or Kiev), Ukraine's capital, is a large city located on
                 the shores of the Dnipro river. Of course, no one in their right
@@ -133,23 +131,20 @@
                 prestigious though, even by people who live on the far outskirts
                 of the right one.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Cricieth, Wales</h2>
             <img
               class="place__image"
               src="./images/place/__image-cricieth.png"
               alt="cricieth"
             />
-            <div class="place__NFT-frame">
-              <a
-                class="place__NFT-link"
+            <a
+                class="place__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Buy this artwork as NFT</a
               >
-            </div>
-            <article class="place__article">
               <div class="place__website">
                 <h3 class="place__website-heading">artist</h3>
                 <p class="place__website-artist">Steffan Warren, lead editor</p>
@@ -157,6 +152,7 @@
                   Kseniya Glagoleva, project manager
                 </p>
               </div>
+              <div class="place__article">
               <p class="place__paragraph">
                 The medieval ruin of Cricieth Castle overlooks the town below
                 from a rock that juts out into the sea. It is thought to have
@@ -174,29 +170,27 @@
                 It was also home to David Lloyd George, the only Welshman ever
                 to hold the office of Prime Minister of the UK.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Berea, USA</h2>
             <img
               class="place__image"
               src="./images/place/__image-berea.png"
               alt="berea"
             />
-            <div class="place__NFT-frame">
-              <a
-                class="place__NFT-link"
+            <a
+                class="place__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Buy this artwork as NFT</a
               >
-            </div>
-            <article class="place__article">
-              <div class="place__website">
+              <div class="place__website" id="berea">
                 <h3 class="place__website-heading">artist</h3>
                 <p class="place__website-artist">
                   Travis Turner, author and editor
                 </p>
               </div>
+              <div class="place__article">
               <p class="place__paragraph">
                 Berea is a small town located in the central part of Kentucky.
                 The town is surrounded by beautiful forests and countryside.
@@ -214,29 +208,27 @@
                 coeducational. Somewhat uniquely, it charges no tuition — every
                 student receives a full-tuition scholarship.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Muramvya, Burund</h2>
             <img
               class="place__image"
               src="./images/place/__image-muramvya.png"
               alt="muramvya"
             />
-            <div class="place__NFT-frame">
-              <a
-                class="place__NFT-link"
+            <a
+                class="place__nft-link"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Buy this artwork as NFT</a
               >
-            </div>
-            <article class="place__article">
-              <div class="place__website">
+              <div class="place__website" id="muramvya">
                 <h3 class="place__website-heading">artist</h3>
                 <p class="place__website-artist">
                   Grevisse Kenguruka, tech editor
                 </p>
               </div>
+              <div class="place__article">
               <p class="place__paragraph">
                 Muramvya is one of the 18 provinces of Burundi. In the kingdom
                 era, Muramvya was the royal capital and in 2007, because of its
@@ -260,22 +252,19 @@
                 altitude. It is filled with beautiful vegetation, and a source
                 for the various rivers and streams which provide water around
               </p>
-            </article>
-          </div>
+            </div>
+          </article>
         </section>
         <section class="cover">
             <h2 class="cover__title">Visit us</h2>
             <p class="cover__subtitle">Year-round</p>
             <p class="cover__subtitle">Practicum Art Gallery</p>
             <p class="cover__subtitle">404 Tim Berners-Lee Ave</p>
-            <div class="cover__link-box">
-              <a
-                class="cover__link"
+            <a class="cover__link"
                 rel="stylesheet"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
-                >Buy tickets</a
-              >
-            </div>
+                >Buy tickets  
+                </a>      
         </section>
       </main>
       <footer class="footer">
