@@ -8,14 +8,16 @@
     grid-template-areas: 
     "title  artist"
     "image  article"
-    "nft    article";
-    grid-template-columns: 460px 464px;
+    "nft    article"
+    ".      article";
+    grid-template-columns: 460px 1fr;
 }
 
 @media screen and (max-width: 1279px){
     .place{
         grid-column-gap: 28px;
-        grid-template-columns: 340px 352px;
+        grid-template-rows: 92px 340px 13px;
+        grid-template-columns: 340px 1fr;
         margin-bottom: 72px;
     }
 }
@@ -28,14 +30,9 @@
         "image"
         "article"
         "nft";
+        grid-template-rows: none;
         grid-template-columns: 100%;
         margin-bottom: 50px;
         grid-row-gap:30px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .place{
-        max-width: 288px;
     }
 }

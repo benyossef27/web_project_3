@@ -4,7 +4,7 @@
     min-height: 740px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
     background: url(../../images/cover/__background.png) rgba(42, 44, 47, 0.3);
     background-repeat: no-repeat;
@@ -16,9 +16,14 @@
   
   @media screen and (max-width: 1279px) {
     .cover {
-      margin: 0 0 88px;
-      width: 100%;
+      margin: 0 auto 88px;
       min-height: 746px;
+    }
+  }
+
+  @media screen and (max-width: 1279px) {
+    .cover {
+      width: 100%;
     }
   }
   

@@ -11,12 +11,6 @@
 @media screen and (max-width:320px){
     .intro__quote{
         line-height: 30px;
-    }
-}
-
-@media screen and (max-width:200px){
-    .intro__quote{
-        line-height: 30px;
         font-size: 16px;
     }
 }
