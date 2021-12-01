@@ -1,6 +1,6 @@
 .place__nft-link{
-    max-width: 288px;
-    font-style: semi-bold;
+    max-width: 248px;
+    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -8,17 +8,23 @@
     margin: auto 0;
     text-decoration: none;
     background-color: #0278FE;
-    padding: 13px 20px;
+    padding: 13px 0;
     border-radius: 4px;
-    align-self: start;
     text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    .place__nft-link{
+        margin: auto;
+        padding: 13px 20px;
+    }
+}
 
 @media screen and (max-width: 320px){
     .place__nft-link{
-        padding: 13px 40px;
-        margin: auto;
+        margin: auto 16px;
+        max-width: 288px;
+        padding: auto;
     }
 }
 

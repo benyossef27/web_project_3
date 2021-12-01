@@ -2,7 +2,7 @@
     font-family: Inter, Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     display: grid;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
     grid-column-gap: 40px;
     grid-row-gap:48px;
     grid-template-areas: 
@@ -16,7 +16,7 @@
 @media screen and (max-width: 1279px){
     .place{
         grid-column-gap: 28px;
-        grid-template-rows: 92px 340px 13px;
+        grid-template-rows: 1fr 340px 13px;
         grid-template-columns: 340px 1fr;
         margin-bottom: 72px;
     }
