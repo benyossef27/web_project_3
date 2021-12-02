@@ -25,6 +25,9 @@
 @media screen and (max-width: 320px){
     .place__paragraph {
         margin: 0 16px 25px;
-        max-width: 90vw;
+        max-width: 288px;
+    }
+    .place__paragraph:last-child{
+        margin-bottom: 0;
     }
 }
