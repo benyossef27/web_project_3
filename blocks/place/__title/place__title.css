@@ -23,7 +23,7 @@
     .place__title {
         font-size: 2em;
         line-height: 90%;
-        max-width: 90vw;
+        max-width: 288px;
         margin: 0 16px;
     }
 }
