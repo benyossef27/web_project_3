@@ -13,13 +13,6 @@
     text-align: center;
 }
 
-@media screen and (max-width: 767px){
-    .place__nft-link{
-        margin: auto;
-        padding: 13px 20px;
-    }
-}
-
 @media screen and (max-width: 320px){
     .place__nft-link{
         margin: auto 16px;
