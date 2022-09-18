@@ -1,5 +1,5 @@
 
-# Project 3 - Sprint4: From Portland to Portland
+# Project 3 - Sprint4: From Homeland to Homeland
 * Part of the Practicum by Yandex Web Development Bootcamp Curriculum.
 
 **demo** 
